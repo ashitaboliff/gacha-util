@@ -2,9 +2,9 @@ import os
 from PIL import Image
 
 # ======== 設定 ========
-input_dir = "input_images"   # PNGファイルがあるルートディレクトリ
-output_dir = "output_webp"   # 出力ルートディレクトリ
-target_width = 800           # 出力する幅（px）
+input_dir = "input"   # PNGファイルがあるルートディレクトリ
+output_dir = "output"   # 出力ルートディレクトリ
+target_width = 600           # 出力する幅（px）
 quality = 80                 # WebP品質（0〜100）
 # =====================
 

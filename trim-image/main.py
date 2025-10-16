@@ -2,8 +2,8 @@ from PIL import Image
 import os
 
 # トリミングするフォルダのパス
-input_folder = "gacha"  # PNG画像が保存されているフォルダ
-output_folder = "output_folder"  # トリミング後の画像を保存するフォルダ
+input_folder = "input"  # PNG画像が保存されているフォルダ
+output_folder = "output"  # トリミング後の画像を保存するフォルダ
 
 # フォルダが存在しない場合は作成
 os.makedirs(output_folder, exist_ok=True)
