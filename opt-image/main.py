@@ -21,7 +21,7 @@ def convert_png_to_webp(input_path, output_path):
 # 再帰的に処理
 for root, dirs, files in os.walk(input_dir):
     for file in files:
-        if file.lower().endswith(".png"):
+        if file.lower().endswith(".png") or file.lower().endswith(".jpg") or file.lower().endswith(".jpeg"):
             # 入力ファイルパス
             input_path = os.path.join(root, file)
 
